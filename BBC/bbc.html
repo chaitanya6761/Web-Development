@@ -1,0 +1,457 @@
+<!doctype html>
+<html>
+<head>
+    <title>Chaitu's BBC</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<style type="text/css">
+	
+	body
+	{
+		margin:0;
+		font-family:arial,helvetica,sans-serif;
+	}
+	
+	
+	#topbar
+	{
+		background-color:#7A0000;
+		width:100%;
+		height:40px;
+		color:white;
+	}
+	
+	.fixedwidth
+	{
+		width:1050px;
+		margin:0 auto;
+		
+		
+	}
+	
+	#logodiv
+	{
+		padding-top:4px;
+		float:left;
+		border-right:1px solid #990000;
+		padding-right:10px;
+		
+	}
+	
+	#signindiv
+	{
+		font-weight:bold;
+		font-size:0.9em; 
+		padding:6px 80px 7px 20px;
+		border-right:1px solid #990000;
+		float:left;
+		
+	}
+	
+	#signindiv img
+	{
+		position:relative;
+		top:3px;
+	}
+	
+	#topmenudiv
+	{
+		float:left;
+		
+		
+	}
+	
+	#topmenudiv ul
+	{
+		margin-top:0px ;
+		padding:0;
+		
+	}
+	
+	#topmenudiv li
+	{
+		list-style:none;
+		font-weight:bold;
+		font-size:0.9em;
+		border-right:1px solid #990000;
+		padding:10px 20px 8px 20px;
+		height:100%;
+		float:left;
+		
+	}
+	
+	#searchdiv
+	{
+		float:left;
+		padding:5px 0 0 10px;
+	}
+	
+	#searchdiv input
+	{
+		height:25px;
+		border:none; 
+		font-size:0.9em;
+		padding-left:5px;
+		background-image:url("images/search.png");
+		background-repeat:no-repeat;
+		background-position:right center;
+		 
+		
+	}
+	
+	
+	#newsbar
+	{
+		background-color:#990000;
+		width:100%;
+		height:94px;
+		color:white;
+		margin:0;
+		padding:0
+	}
+	
+	.break
+	{
+	 clear:both;
+	}
+	
+	#newsbar p
+	{
+		margin:0;
+		padding:0;
+		padding-top:13px;
+		float:left;
+
+	}
+	
+	#newsheader
+	{
+		font-size:3em;
+		
+		
+	}
+	
+	#in
+	{
+		font-size:0.7em;
+		padding-left:20px;
+	}
+	
+	#rss
+	{
+		float:right;
+		margin-top:38px;
+	}   
+	
+	#rss img
+	{
+		height:14px;
+	}
+	
+	#topicmenu
+	{
+	
+	}
+	#topicmenu ul
+	{
+		background-color:#3E0C0D;
+		padding:5px 0 0 5px;
+		margin:0;
+		height:20px;
+	}
+	
+	#topicmenu li
+	{
+		list-style:none;
+		font-size:0.8em;
+		border-right:1px solid #990000;
+		float:left;
+		background-color:none;
+		padding:0 6px 0 6px;
+		
+	}
+	
+	.selected
+	{
+		background-color:#EDEDED;
+		color:black;
+		height:20px;
+		position:relative;
+		top:-4px;
+		padding-top:4px !important;
+	} 
+	
+	
+	#content
+	{
+		width:100%;
+		color:#535353;
+		font-size:0.8em;
+		
+
+	}
+	
+	 .date
+	 {
+		font-weight:bold;
+	 }
+	
+	h1
+	{
+		color:#1F4F82;
+		font-size:2.5em;
+	}
+	
+	.headlineimg
+	{
+		float:left;
+	}
+	
+	.newsitem
+	{
+		position:relative;
+		left:10px;
+		top:-15px;
+		width:280px;
+		float:left;
+		font-size:1.1.em;
+		
+	}
+	 
+	.newsitem a
+	{
+		color:#1F4F82;
+		text-decoration:none;
+	} 
+	
+	.newsitem a:hover
+	{
+		text-decoration:underline;
+	}
+	.video
+	{
+		background-image:url("images/play.png");
+		background-repeat:no-repeat;
+		background-position:left center;
+		padding-left:28px;
+	}
+	
+	.links
+	{
+		line-height:1.7em;
+	}
+	
+	.sound
+	{
+		background-image:url("images/sound.png");
+		background-repeat:no-repeat;
+		background-position:left center;
+		padding-left:28px;
+	}
+	
+	#watchlisten
+	{
+		background-color:#EEEEEE;
+		float:right;
+		width:380px;
+		height:320px;
+		position:relative;
+		top:-80px;
+		
+	}
+	
+	h2
+	{
+		color:#505050;
+		margin:10px 0 10px 10px;
+		font-size:1.8em;
+		
+		
+	}
+	
+	.boxes
+	{
+		float:right;
+		margin:20px 10px 0 0;
+		
+	}
+	
+	#watchlisten ul
+	{
+		margin:0;
+		padding:0 10px 10px 10px;
+	}
+	
+	#watchlisten li
+	{
+		list-style:none;
+		background-image:url("images/live.png");
+		background-repeat:no-repeat;
+		background-position:left center; 
+		padding:10px 0 10px 50px ;
+		font-size:1.6em;
+		
+		
+	}
+	
+	#watchlisten a
+	{
+		text-decoration:none;
+	}
+	
+	.bb
+	{
+		border-bottom:1px solid #DDDDDD; 
+	}
+	
+	
+	</style>
+	 
+</head>
+
+<body>
+
+		<div id="container">
+		
+			 <div id="topbar">
+			 
+				<div class="fixedwidth">
+				
+					<div id="logodiv">
+						
+						<img src="images/bbc.jpg"/>
+						 
+					</div>
+					
+					<div id="signindiv">
+					
+						<img src="images/signin.png">Sign In
+					
+					</div>
+					
+					<div id="topmenudiv">
+					
+						<ul>
+							<li>News</li>
+							<li>Sport</li>
+							<li>Weather</li>
+							<li>IPlayer</li>
+							<li>TV</li>
+							<li>Radio</li>
+							<li>More...</li>
+								
+						</ul>
+					
+					
+					</div>
+					
+					<div id="searchdiv">
+					
+							<input type="text" placeholder="search"/>
+					
+					</div>
+					
+				</div>	
+			 
+			 </div>
+			 
+			 <div class="break"></div>
+			 
+			 <div id="newsbar">
+			 
+				<div class="fixedwidth">
+				
+					<p id="newsheader">NEWS<span id="in">IN</span></p>
+				
+					<div id="rss">
+						RSS <img src="images/rss.png" >
+					</div>
+					
+					<div class="break"></div>
+						
+					<div id="topicmenu">
+					
+						<ul>
+						
+							<li>Home</li>
+							<li>World</li>
+							<li class="selected">IN</li>
+							<li>N. Ireland</li>
+							<li>Scotland</li>
+							<li>Wales</li>
+							<li>Business</li>
+							<li>Politics</li>
+							<li>Health</li>
+							<li>Education</li>
+							<li>Sci/Enviroment</li>
+							<li>Technology</li>
+							<li style="border-right:none;">Entertainment & Arts</li>
+						</ul>
+						
+						
+					
+					</div>					
+				</div>
+					
+			</div>	
+			
+			 <div class="break"></div>
+			
+			<div id="content">
+			
+				<div class="fixedwidth">
+				
+				<p><span class="date">7 February 2016 </span>last updated at 19:09</p>
+				
+				<h1 >Pollution to spread across India</h1>
+				
+				<img class="headlineimg" src="images/pollution.png" height=200px/>
+				
+				<div class="newsitem">
+				
+					<p> Health warnings have been issued by the government as pollution
+				     spreading across England is forecast to hit high levels.</p>	
+					
+					<p class="links"> <a class="video" href="#">Why pollution levels are so high?</a><br/>
+					<a class="video" href="#">Saharan dust visible on cars</a><br/>
+					<a class="video" href="#">How Saharan dust reached In</a><br/>
+					<a href="" style="padding-left:6px;">What will pollution do to us?</a><br/>
+					<a class="sound" href="#">Air pollution a serious issue</a>
+					</p>
+					
+				</div>
+				
+				<div id="watchlisten">
+				
+				<img class="boxes" src="images\squares.png">
+				
+				<h2>Watch/listen</h2>
+				
+				<img src="images\block.png" width=380px;>
+				
+				<ul>
+					
+					<li class="bb"><a href="#">BBC News Channel</a></li>
+					<li class="bb"><a href="#">Radio 5 Live</a></li>
+					<li><a href="#">Questions on budget</a></li>
+				</ul>
+				
+				
+				
+				
+				
+				</div>
+				 
+				</div>
+			
+			</div>
+			 
+			
+		
+		</div>
+
+</body>
+</html>
