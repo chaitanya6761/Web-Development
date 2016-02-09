@@ -12,6 +12,7 @@
 		body
 		{
 			font-family : Verdana, Geneva, sans-serif; 
+			background-color:#F2F2F2;
 		}
 		
 		
@@ -39,9 +40,10 @@
 </head>
 
 <body>
-	<h1>Test your reactions..!!</h1>
-	<p>clock on the boxex and circles as quickly as you can!</p>
+	<h2>Test your reactions..!!</h2>
+	<p>click on the boxes and circles as quickly as you can!</p>
 	<p class="bold">Your time: <span id="time">0</span>s</p>
+	<p class="bold">Best time: <span id="bestTime">0</span>s</p>
 
 	<div id="box"></div>
 	
@@ -58,9 +60,10 @@
 		return color;
 	}
 	
+
 	
 	
-	var clickedTime; var createdTime; var reactionTime;
+	var clickedTime; var createdTime; var reactionTime; var bestTime=10000;
 	
 	
 	function makebox()
@@ -83,11 +86,11 @@
 		
 		var top = Math.random();
 
-		top = top*300;
+		top = top*500;
 		
 		var left = Math.random();
 		
-		left*=400;
+		left*=900;
 
 		
 		document.getElementById("box").style.top = top+"px";
@@ -110,6 +113,14 @@
 		reactionTime=(clickedTime-createdTime)/1000;
 		
 		document.getElementById("time").innerHTML = reactionTime; 
+		
+		if(bestTime > reactionTime)
+		{
+			//alert(1);
+			bestTime = reactionTime;
+			document.getElementById("bestTime").innerHTML = bestTime; 
+			
+		}
 		
 		 makebox();
 	
