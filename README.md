@@ -1,6 +1,6 @@
 ## Reaction Tester
 
-[play](http://217.199.187.196/chaitanyakumarmadala.com/ReactionTester/reactionTester.html)
+[Play](http://217.199.187.196/chaitanyakumarmadala.com/ReactionTester/reactionTester.html)
 
 Screenshot of the Game:
 ![tester](https://raw.githubusercontent.com/chaitanya6761/Web-Development/master/ReactionTester/images/reactionTester.PNG)
