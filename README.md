@@ -1,7 +1,7 @@
 ## PostCode Finder
 This website will let you find postal code of any place. 
 
-[View Demo](217.199.187.196/chaitanyakumarmadala.com/postcardfinder/)
+[View Demo](http://217.199.187.196/chaitanyakumarmadala.com/postcardfinder/)
 
 screenshot of PostCard Finder:
 ![weather](https://raw.githubusercontent.com/chaitanya6761/Web-Development/master/postcardfinder/finder.JPG)
