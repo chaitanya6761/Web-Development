@@ -1,3 +1,11 @@
+## Secret Dairy
+This application will let you store your thoughts for the day.
+
+[View Demo](http://217.199.187.196/chaitanyakumarmadala.com/secretdairy/)
+
+screenshot of Secret Dairy:
+![weather](https://raw.githubusercontent.com/chaitanya6761/Web-Development/master/secretdairy/secretDairy.JPG)
+
 ## PostCode Finder
 This website will let you find postal code of any place. 
 
