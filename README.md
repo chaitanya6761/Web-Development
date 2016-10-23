@@ -1,3 +1,9 @@
+## CS50Finace:
+C$50 Finance, a Web-based tool with which you can manage portfolios of stocks. Not only will this tool allow you to check real stocks' actual prices and portfolios' values, it will also let you buy (okay, "buy") and sell (fine, "sell") stocks! Per Yahoo’s fine print, "Quotes delayed [by a few minutes], except where indicated otherwise."
+
+screenshot of CS50Finance:
+![finance](https://raw.githubusercontent.com/chaitanya6761/Web-Development/master/cs50Finance/finance.png)
+
 ## Secret Dairy
 This application will let you store your thoughts for the day.
 
