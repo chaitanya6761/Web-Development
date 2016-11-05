@@ -1,4 +1,4 @@
-## 1. Mashup of Google News and Goole Maps
+## 1. Mashup of Google News and Google Maps
 The "mashup"  integrates Google Maps with Google News with a MySQL database containing thousands of postal codes, GPS coordinates, and more.Not only can you search for places via the text box up top, you can also click on and drag the map elsewhere. Scattered across the map, meanwhile, are newspaper icons that, when clicked, provide links to local news!
 
 screenshot of Mashup:
